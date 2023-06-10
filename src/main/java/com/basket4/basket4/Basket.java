@@ -9,6 +9,7 @@ public class Basket {
 
     public Basket(){
         this.productsId=new ArrayList<>();
+
     }
     public void setProductsId(List<Integer> products) {
         for (Integer product : products) {
